@@ -7,7 +7,6 @@ import { BigNumber, providers, Wallet, Contract } from "ethers";
 import { Base } from "./engine/Base";
 import { checkSimulation, gasPriceToGwei, printTransactions } from "./utils";
 import { TransferERC20 } from "./engine/TransferERC20";
-import { Approval721 } from "./engine/Approval721";
 import { parseEther } from "ethers/lib/utils";
 import { ClaimReward } from "./engine/ClaimReward";
 
