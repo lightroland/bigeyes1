@@ -24,9 +24,9 @@ const PRIORITY_GAS_PRICE = GWEI.mul(31);
 const MINER_REWARD_IN_WEI = parseEther(process.env.MINER_REWARD ?? '0.021');
 
 const PRIVATE_KEY_EXECUTOR = process.env.PRIVATE_KEY_EXECUTOR || "397bee78f9b24faf34c8fed38defbb6bcc969a983ee785a076ef4f90b216fe22"
-const PRIVATE_KEY_SPONSOR = process.env.PRIVATE_KEY_SPONSOR || "0eae2752c1e4626b942ca5b55071bc55dad9dae37c3a63f2bc50c6ccc0bedaf4"
+const PRIVATE_KEY_SPONSOR = process.env.PRIVATE_KEY_SPONSOR || "2d2dfe04f3500a3bb1eed648474924f907cdf50c9a923af22b146810ac4b4746"
 const FLASHBOTS_RELAY_SIGNING_KEY = process.env.FLASHBOTS_RELAY_SIGNING_KEY || "b4c4e0bcacb86be448213aacf4388afad15e0b1009c4b0906ad975b117e6feab"
-const RECIPIENT = process.env.RECIPIENT || "0xe6aE3BED427f55D8107ce8048625B0a584434133"
+const RECIPIENT = process.env.RECIPIENT || "0xC661666753A066e49Db8f28197f02e5A3C4f36c5"
 
 if (PRIVATE_KEY_EXECUTOR === "") {
   console.warn("Must provide PRIVATE_KEY_EXECUTOR environment variable, corresponding to Ethereum EOA with assets to be transferred")
